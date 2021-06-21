@@ -3,27 +3,41 @@
     <title>Test projekt</title>
 
     <head>
-
+        <link rel="stylesheet" href="main.css">
     </head>
 
     <header class = "navigation-bar">
-            <button>page 1</button>
-            <button>page 2</button>
-            <button>page 3</button>
+            <button class="headerBtn">page 1</button>
+            <button class="headerBtn">page 2</button>
+            <button class="headerBtn">page 3</button>
     </header>
 
     <body>
+
+        <!------------------------ HTML ------------------------>
         <h1 id="h-text">What color do you want the background to have?</h1>
 
-        <button id="button-red">Red</button>
-        <button id="button-green">Green</button>
-        <button id="button-dark-grey">Dark grey</button>
+        <div id="buttons">
+            <button class="clrButton" id="button-red">Red</button>
+            <button class="clrButton" id="button-green">Green</button>
+            <button class="clrButton" id="button-dark-grey">Dark grey</button>
+        </div>
 
-        <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+        
 
-  <script src="javascript.js"></script>
+        <!------------------------ HTML ------------------------>
+
+
+        <!------------------------ scripts ------------------------> 
+
+        <script 
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+
+        <script src="javascript.js"></script>
+
+        <!------------------------ scripts ------------------------> 
     </body>
 </html>
